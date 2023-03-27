@@ -32,7 +32,7 @@ def tabela_verdade(operacao, n):
 # criar interface gráfica
 root = tk.Tk()
 root.title("Tabelas Verdade")
-tk.Label(root, text="Número de Variáveis:").grid(row=0, column=0)
+tk.Label(root, text="Número de Variáveis:").grid(row=0, column=0) 
 var_entry = tk.Entry(root)
 var_entry.grid(row=0, column=1)
 tk.Button(root, text="E", command=lambda: tabela_verdade(E, int(var_entry.get()))).grid(row=1, column=0)
